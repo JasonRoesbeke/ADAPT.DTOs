@@ -20,6 +20,8 @@ namespace ADAPT.DTOs.Logistics
 		{
 		}
 
+		public long Id { get; set; }
+
 		public Guid Guid { get; set; }
 
 		public string FirstName { get; set; }
